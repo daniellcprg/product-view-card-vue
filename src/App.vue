@@ -6,10 +6,12 @@
       class="flex flex-col w-full h-full bg-white rounded-[10px] sm:w-[600px] sm:max-h-[450px] sm:flex-row"
     >
       <img
+        alt="Product"
         class="rounded-t-[10px] sm:hidden"
         src="./assets/image-product-mobile.jpg"
       />
       <img
+        alt="Product"
         class="hidden rounded-l-[10px] sm:block"
         src="./assets/image-product-desktop.jpg"
       />
@@ -43,7 +45,7 @@
         <button
           class="flex justify-center items-center gap-[12px] bg-aquamarine h-[48px] rounded-[8px] transition-colors hover:bg-aquamarineHover"
         >
-          <img src="./assets/icon-cart.svg" />
+          <img alt="Icon Cart" src="./assets/icon-cart.svg" />
           <span class="font-montserrat text-[14px] font-bold text-white">
             Add to Cart
           </span>
